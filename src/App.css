@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-image: url("https://c.pxhere.com/images/e0/1a/a09a8ba645b775f70d4fbaf83914-1443389.jpg!d");
+  background-size:100% ;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  /*background-color: #4bc1dd;*/
+  width: 70vw;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-left: 354px;
+  text-align: center !important;
+  padding: 0px;
+  width: 200px;
+}
+
+.form input{
+  margin-bottom: 7px;
+}
+
+.temp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.temp_container_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp span{
+  /*font-;*/
+  font-family: Bahnschrift;
+  font-size: 55px;
+  font-weight: 0;
+}
+
+.main h1{
+  font-family: "Ink Free";
+  font-weight: bold;
+  font-size: 45px;
+  color: black;
+}
+
+.main_name{
+  font-size: xxx-large;
+}
+.c1{
+  display: inline-table;
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 5px;
+  font-style: oblique;
+  color: black;
+}
+.hc2{
+  display: inline-table;
+  font-size: 20px;
+  margin-left: 250px;
+  padding: 5px;
+  font-style: oblique;
+  color: black;
+}
+.m{
+  color: black;
+  margin-top: 20px;
+  font-size: 27px;
+  font-family: "Sitka Subheading";
+
 }
