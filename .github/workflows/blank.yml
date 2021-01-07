@@ -28,7 +28,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Installing surge
-        run:  npm install -g surge
+        run:  npm install --gobal surge
       - name: Deploying using surge
         run: surge ./build weather_app_us.surge.sh --token ${{ secrets.TOKEN }}
          
