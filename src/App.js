@@ -48,7 +48,7 @@ const App = () => {
             </div>
             <div className="flex form">
                 <input placeholder={"Enter City Name"} className="form-control me-2" type={'text'}  value={cities} onChange={(e) => setCities(e.target.value)}/>
-                <button className="btn btn-outline-dark" onClick={loadData}>Seach City</button>
+                <button className="btn btn-outline-primary" onClick={loadData}>Seach City</button>
             </div>
         </div>
     );
