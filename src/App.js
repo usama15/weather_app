@@ -11,7 +11,7 @@ const App = () => {
         loadData()
     }, []);
 
-    function loadData(){axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cities}&appid=901d672d14c778eefb41af3fd3871f1f&units=metric`)
+    function loadData(){axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cities}&appid=f624ca5d6342db880adb7be63142ed06&units=metric`)
             .then(res => {
                 const newPost = res.data
                 setPost(newPost);
